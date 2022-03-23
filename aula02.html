@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula02.css">
+    <title>Conversor de Moedas - Aula 02</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page-title">
+            <h1>Conversor de moedas</h1>
+        </div>
+
+        <div class="page-subtitle">
+            <p>Converta os valores:</p>
+        </div>
+
+        <div class="convert-options">
+
+            <input type="radio" name="moeda" id="dolar" checked>
+            <label for="dolar">Dólar</label>
+
+            <input type="radio" name="moeda" id="bitcoin">
+            <label for="bitcoin">Bitcoin</label>
+
+
+            <input type="radio" name="moeda" id="euro">
+            <label for="euro">Euro</label>
+
+        </div>
+
+        <input type="number" id="valor" size="2"/><br>
+
+        <button type="submit" id="btn-converter">Converter</button>
+
+        <p id="valorConvertido"></p>
+    </div>
+
+    <div class="page-logo">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" alt="">
+    </div>
+
+    <div class="alura-logo">
+        <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </div>
+</body>
+
+<script src="aula02.js"></script>
+
+</html>
